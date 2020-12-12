@@ -25,7 +25,7 @@ public class RacasModel {
 	private String temperamento;
 	
 	@NotNull
-	private String descricao;
+	private String descricao;	
 	
 	@NotNull
 	private String img_1;
@@ -67,7 +67,7 @@ public class RacasModel {
 	public void setTemperamento(String temperamento) {
 		this.temperamento = temperamento;
 	}
-
+	
 	public String getDescricao() {
 		return descricao;
 	}
@@ -75,7 +75,7 @@ public class RacasModel {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-
+	
 	public String getImg_1() {
 		return img_1;
 	}
@@ -99,7 +99,5 @@ public class RacasModel {
 	public void setImg_3(String img_3) {
 		this.img_3 = img_3;
 	}
-	
-	
 
 }
