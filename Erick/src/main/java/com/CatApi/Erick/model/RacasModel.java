@@ -6,6 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "tb_racas")
@@ -25,6 +26,7 @@ public class RacasModel {
 	private String temperamento;
 	
 	@NotNull
+	@Size(min=1, max=1000)
 	private String descricao;	
 	
 	@NotNull
