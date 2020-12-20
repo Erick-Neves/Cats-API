@@ -16,9 +16,9 @@ Utilizei de injeção de dependências via dump/backup do Mysql, e posteriorment
 
 ## O que vamos precisar?
 
-*Docker desktop(para buildar os containers)
-*Postman(para consumir API)
-*Git(para clonar o projeto)
+* Docker desktop(para buildar os containers)
+* Postman(para consumir API)
+* Git(para clonar o projeto)
 
 ## Como executar a aplicação?
 
