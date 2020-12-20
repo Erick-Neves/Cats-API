@@ -33,7 +33,7 @@ Utilizei de injeção de dependências via dump/backup do Mysql, e posteriorment
 
 4. Abra um terminal dentro desta pasta.
 	1. Uma das formas de fazer isso, é apagar todo o conteúdo do caminho da pasta, e digitar "cmd"
-	2. <img align="center" width="600" src="https://i.imgur.com/f0HLcfs.png"/>
+	2. <img align="center" width="700" src="https://i.imgur.com/f0HLcfs.png"/>
 	3. <img align="center" width="350" src="https://i.imgur.com/hmIirdN.png"/>
 	4. <img align="center" width="350" src="https://i.imgur.com/yzDBbjq.jpg"/>
 	
