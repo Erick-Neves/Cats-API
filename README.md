@@ -29,14 +29,19 @@ Utilizei de injeção de dependências via dump/backup do Mysql, e posteriorment
 
 3. Na pasta do projeto navegue até o diretório que contem o docker-compose.yml
 	1. ../Cats-API/catapideploy/catapi
-	2. <img align="center" src="https://i.imgur.com/bQ60yKR.jpg"/>
+	2. <img align="center" width="700" src="https://i.imgur.com/bQ60yKR.jpg"/>
 
 4. Abra um terminal dentro desta pasta.
 	1. Uma das formas de fazer isso, é apagar todo o conteúdo do caminho da pasta, e digitar "cmd"
 	2. <img align="center" width="700" src="https://i.imgur.com/f0HLcfs.png"/>
-	3. <img align="center" width="350" src="https://i.imgur.com/hmIirdN.png"/>
-	4. <img align="center" width="350" src="https://i.imgur.com/yzDBbjq.jpg"/>
+	3. <img align="center" width="700" src="https://i.imgur.com/hmIirdN.png"/>
+	4. <img align="center" width="700" src="https://i.imgur.com/yzDBbjq.jpg"/>
 	
-5. Agora devemos buildar nossa aplicação dentro do Docker:
+5. Agora devemos buildar nossa aplicação dentro do Docker:  
 	1. No terminal, verifique se existe algum container ativo com o comando: docker ps
-	2. 
+	2. <img align="center" width="700" src="https://i.imgur.com/6je1BE9.jpg"/>
+	3. Utilize o comando para buildar: docker-compose up -d --build
+	4. <img align="center" width="700" src="https://i.imgur.com/7cUet3r.jpg"/>
+	5. Verifique se o container está ativo com o comando: docker ps
+	6. <img align="center" width="700" src="https://i.imgur.com/YjlIDeE.jpg"/>
+	7. 
