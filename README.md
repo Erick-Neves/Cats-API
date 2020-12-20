@@ -16,7 +16,7 @@ Utilizei de injeção de dependências via dump/backup do Mysql, e posteriorment
 
 ## O que vamos precisar?
 
-* Docker desktop(para buildar os containers)
+* Docker Desktop(para buildar os containers)
 * Postman(para consumir API)
 * Git(para clonar o projeto)
 
@@ -33,6 +33,10 @@ Utilizei de injeção de dependências via dump/backup do Mysql, e posteriorment
 
 4. Abra um terminal dentro desta pasta.
 	1. Uma das formas de fazer isso, é apagar todo o conteúdo do caminho da pasta, e digitar "cmd"
-	2. <img align="center" src="https://i.imgur.com/f0HLcfs.png"/>
-	3. <img align="center" src="https://i.imgur.com/hmIirdN.png"/>
-	4. <img align="center" src="https://i.imgur.com/yzDBbjq.jpg"/>
+	2. <img align="center" width="350" src="https://i.imgur.com/f0HLcfs.png"/>
+	3. <img align="center" width="350" src="https://i.imgur.com/hmIirdN.png"/>
+	4. <img align="center" width="350" src="https://i.imgur.com/yzDBbjq.jpg"/>
+	
+5. Agora devemos buildar nossa aplicação dentro do Docker:
+	1. No terminal, verifique se existe algum container ativo com o comando: docker ps
+	2. 
