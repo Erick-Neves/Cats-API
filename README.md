@@ -39,9 +39,7 @@ Utilizei de injeção de dependências via dump/backup do Mysql, e posteriorment
 	
 5. Agora devemos buildar nossa aplicação dentro do Docker:  
 	1. No terminal, verifique se existe algum container ativo com o comando: docker ps
-	
 	2. <img align="center" width="700" src="https://i.imgur.com/6je1BE9.jpg"/>
-	
 	3. Utilize o comando para buildar: docker-compose up -d --build 	
 	4. <img align="center" width="700" src="https://i.imgur.com/7cUet3r.jpg"/>
 	5. Verifique se o container está ativo com o comando: docker ps
@@ -49,9 +47,12 @@ Utilizei de injeção de dependências via dump/backup do Mysql, e posteriorment
 	7. Agora copie o 'CONTAINER ID' de catapi_cat-api.
 	8. Cole o 'CONTAINER ID' no comando: docker logs -f 'CONTAINER ID'
 	9. <img align="center" width="700" src="https://i.imgur.com/ETD27uP.jpg"/>
-	10. Quando aparecer "JVM running for 15.473", use o atalho CTRL+C, para voltar a usar o terminal.
+	10. Quando aparecer "JVM running for 15.473", use o atalho CTRL+C duas vezes, para voltar a usar o terminal.
 	11. <img align="center" width="700" src="https://i.imgur.com/MN7uizP.jpg"/>
-	12. Agora vamos popular nosso banco, utilize o comando: docker exec -i catapi_db_1 mysql -uroot -p"rootadmin" db_catapi < db_catapi.sql
+	12. Para popular nosso banco, utilize o comando: docker exec -i catapi_db_1 mysql -uroot -p"rootadmin" db_catapi < db_catapi.sql
 	13. <img align="center" width="700" src="https://i.imgur.com/Wtj77Rn.jpg"/>
 6. Agora devemos consumir nossa API via Postman:
+	1. Com a aplicação rodando no docker, podemos acessar a documentação do projeto pelo link: http://localhost:9000/swagger-ui.html#/
+	2. 
+
 
