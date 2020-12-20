@@ -53,6 +53,8 @@ Utilizei de injeção de dependências via dump/backup do Mysql, e posteriorment
 	13. <img align="center" width="700" src="https://i.imgur.com/Wtj77Rn.jpg"/>
 6. Agora devemos consumir nossa API via Postman:
 	1. Com a aplicação rodando no docker, podemos acessar a documentação do projeto pelo link: http://localhost:9000/swagger-ui.html#/
-	2. 
+	2. Abra o Postman, e importe a collection que está dentro da pasta "../Cats-API/Documentação"
+	3. Escolha alguma das requisições para fazer os testes.
+	4. <img align="center" width="700" src="https://i.imgur.com/i7LIH6y.jpg"/>
 
 
