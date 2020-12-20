@@ -39,7 +39,9 @@ Utilizei de injeção de dependências via dump/backup do Mysql, e posteriorment
 	
 5. Agora devemos buildar nossa aplicação dentro do Docker:  
 	1. No terminal, verifique se existe algum container ativo com o comando: docker ps
+	
 	2. <img align="center" width="700" src="https://i.imgur.com/6je1BE9.jpg"/>
+	
 	3. Utilize o comando para buildar: docker-compose up -d --build
 	4. <img align="center" width="700" src="https://i.imgur.com/7cUet3r.jpg"/>
 	5. Verifique se o container está ativo com o comando: docker ps
