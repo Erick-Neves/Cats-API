@@ -29,4 +29,4 @@ Utilizei de injeção de dependências via dump/backup do Mysql, e posteriorment
 
 3. Na pasta do projeto navegue até o diretório que contem o docker-compose.yml
 	1. Teste_API\Cats-API\catapideploy\catapi
-<img align="center" src="https://i.imgur.com/2RQ8LJR.jpg"/>
+<img align="center" src="https://i.imgur.com/bQ60yKR.jpg"/>
