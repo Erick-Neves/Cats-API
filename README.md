@@ -30,3 +30,9 @@ Utilizei de injeção de dependências via dump/backup do Mysql, e posteriorment
 3. Na pasta do projeto navegue até o diretório que contem o docker-compose.yml
 	1. ../Cats-API/catapideploy/catapi
 <img align="center" src="https://i.imgur.com/bQ60yKR.jpg"/>
+
+4. Abra um terminal dentro desta pasta.
+	1. Uma das formas de fazer isso, é apagar todo o conteúdo do caminho da pasta, e digitar "cmd"
+	2. <img align="center" src="https://i.imgur.com/f0HLcfs.png"/>
+	3. <img align="center" src="https://i.imgur.com/hmIirdN.png"/>
+	4. <img align="center" src="https://i.imgur.com/yzDBbjq.jpg"/>
