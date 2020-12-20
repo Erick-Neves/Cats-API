@@ -10,9 +10,9 @@ Utilizei de injeção de dependências via dump/backup do Mysql, e posteriorment
 
 1. Os endpoints da aplicação tem CRUD completo, embora tenha sido solicitado apenas as requisições de GET.
 2. Na URI temos três contextos:
-	1.'/racas' - acessa as raças e suas informações.
-	2.'/chapeu' - retorna as três imagens de gato com chapéu.
-	3.'/oculos' - retorna as três imagens de gato com óculos.
+	1. '/racas' - acessa as raças e suas informações.
+	2. '/chapeu' - retorna as três imagens de gato com chapéu.
+	3. '/oculos' - retorna as três imagens de gato com óculos.
 
 ## O que vamos precisar?
 
