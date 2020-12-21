@@ -38,7 +38,7 @@ Utilizei de injeção de dependências via dump/backup do Mysql, e posteriorment
 	4. <img align="center" width="700" src="https://i.imgur.com/yzDBbjq.jpg"/>
 	
 5. Agora devemos buildar nossa aplicação dentro do Docker:  
-	. No terminal, verifique se existe algum container ativo com o comando: docker ps
+	1. No terminal, verifique se existe algum container ativo com o comando: docker ps
 	2. <img align="center" width="700" src="https://i.imgur.com/6je1BE9.jpg"/>
 	3. Utilize o comando para buildar: docker-compose up -d --build 	
 	4. <img align="center" width="700" src="https://i.imgur.com/7cUet3r.jpg"/>
@@ -54,7 +54,8 @@ Utilizei de injeção de dependências via dump/backup do Mysql, e posteriorment
 6. Agora devemos consumir nossa API via Postman:
 	1. Com a aplicação rodando no docker, podemos acessar a documentação do projeto pelo link: http://localhost:9000/swagger-ui.html#/
 	2. Abra o Postman, e importe a collection que está dentro da pasta "../Cats-API/Documentação"
-	3. Escolha alguma das requisições para fazer os testes.
-	4. <img align="center" width="700" src="https://i.imgur.com/i7LIH6y.jpg"/>
+	3. <img align="center" width="700" src="https://i.imgur.com/ZOnYM5u.jpg"/>
+	5. Escolha alguma das requisições para fazer os testes.
+	6. <img align="center" width="700" src="https://i.imgur.com/i7LIH6y.jpg"/>
 
 
